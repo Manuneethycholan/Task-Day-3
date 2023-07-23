@@ -1,0 +1,43 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+HTTPS-1.1
+
+Found in 1989 and released in 1997 by Tim Berners.
+
+Uses -3 TCP connection and with a single stream of data flow.
+
+Loads resources one after the other and can block the resources after the head of one resource if blocked.
+
+Server pushes data only if the client asks for it.
+
+Uses compression to pack data into smaller packs.
+
+Less secure since transfer of data is in plain text format.
+
+
+
+
+HTTPS-2
+
+Developed by google in 2015.
+
+Uses - 1 TCP connection but with multiple streams of data flow.( knows prioritisation of data streams.)
+
+Loads resources even one resource is blocked since multiple streams of data are sent.
+
+Server pushes data even before the client asks for it.(pushes js and css files without client request by pushing).
+
+Uses compression Hpack mechanism to avoid redundant use of header packet.
+
+More secure since data is transferred into binary format of packets.
+
+
+
+
+
+
+
+
+
+

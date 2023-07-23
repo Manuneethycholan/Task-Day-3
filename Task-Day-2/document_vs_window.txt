@@ -1,0 +1,30 @@
+Write a blog on difference between document and window object 
+
+
+Document
+
+Each document is an object inside the window object .
+
+Document is related to the content which is presented ( a web page of file).
+
+Document loads the inside of a window / browser.
+
+We cannot access window objects through documents.
+
+Documents refer to the html file.
+
+
+
+Window object
+
+Each browser tab / individual window is a window object .
+
+A window is related to the browser session presenting a document.
+
+It represents the browser window.
+
+We can access the  objects of a document through the window object.
+
+It is the top most object present.
+
+

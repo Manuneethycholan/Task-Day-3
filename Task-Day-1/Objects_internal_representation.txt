@@ -1,0 +1,8 @@
+
+2. Write a blog about objects and its internal representation in Javascript
+
+An object in Java script is defined within curly braces. It is a collection of relative data , which can have several properties. It can also be in key-Value pairs. Key value pairs are separated by : (colon) in between them. All objects must have unique keys but values could be similar. An item/attribute/property of an object could be called using (. - dot) operator. 
+
+const human = {“anger”  :  “yes”,  “joy” : ”sometimes”}
+
+Eg. Print(human.anger) – where human is an object and anger is a property / item / attribute of the object .
