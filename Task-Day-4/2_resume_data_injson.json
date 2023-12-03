@@ -1,0 +1,30 @@
+{
+    "general_info": {
+        "name": "CholanM",
+        "education": "Mid-School",
+        "class": "6th standard",
+        "section": "C section",
+        "location": {
+            "address": "my address ",
+            "postalCode": "60010090",
+            "city": "chennai",
+            "State": "Tamilnadu"
+        }
+    },
+    "contact_info": {
+        "emailid": "sampleemail@orkut.com",
+        "phoneNo": "9876543210",
+        "facecook": "school_boy_567",
+        "instagram": "school_boy_007"
+    },
+    "skills": {
+        "language": {
+            "tamil": "intermediate",
+            "english": "advanced",
+            "hindi": "basic"
+        },
+        "football": "intermediate",
+        "cricket": "advanced",
+        "swimming": "none"
+    }
+}
