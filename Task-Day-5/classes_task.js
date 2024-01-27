@@ -171,5 +171,3 @@ customer1.getcustDetails()
 const ubercharges = customer1.getTotalCharges()
 console.log(ubercharges)
 
-
-``
